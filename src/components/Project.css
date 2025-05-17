@@ -1,0 +1,103 @@
+.projects-container {
+    min-height: 100vh;
+    background-color: #0f0f0f;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #e55f05, #fb923c, #e5da0a);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+.project-para{
+     margin-bottom: 80px;
+     padding: auto;
+}
+
+.projects-grid {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: #1a1a1a;
+    border-radius: 15px;
+    width: 400px;
+    box-shadow: 0 0 20px rgba(249, 115, 22, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 40px rgba(251, 146, 60, 0.7);
+}
+
+.project-image-wrapper {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.project-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.project-card:hover .project-image {
+    transform: scale(1.1);
+}
+
+.project-content {
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-content h3 {
+    color: #f97316;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.project-content p {
+    color: #ddd;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+
+.github-btn {
+    display: inline-block;
+    padding: 10px 18px;
+    background: linear-gradient(90deg, #f97316, #facc15, #f97316);
+    border-radius: 8px;
+    color: #1a1a1a;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.github-btn:hover {
+    background: #facc15;
+    color: #0f0f0f;
+}
