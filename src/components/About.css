@@ -1,0 +1,87 @@
+.about-container {
+  min-height: 100vh;
+  background-color: #0f0f0f;
+  color: #fff;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.gradient-text {
+  font-size: 3rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, #f97316, #facc15, #f97316);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  /* text-shadow:
+    0 0 1px rgba(249, 115, 22, 0.6),
+    0 0 1px rgba(251, 146, 60, 0.4),
+    0 0 11px rgba(255, 200, 90, 0.3); */
+  margin-bottom: 20px;
+
+  background: linear-gradient(to right, #cca68c, #fb923c, #642e05);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.about-description {
+  max-width: 800px;
+  font-size: 1.1rem;
+  color: #ddd;
+  margin-bottom: 50px;
+  line-height: 1.7;
+}
+
+.highlight {
+  color: #f97316;
+  font-weight: 600;
+}
+
+/* Stats section */
+.stats1 {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.stat1-box {
+  background-color: #1a1a1a;
+  padding: 30px;
+  margin: 10px;
+  border-radius: 12px;
+  box-shadow: 0 0 18px rgba(255, 153, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.stat1-box:hover {
+  transform: translateY(-8px);
+}
+
+.stat1-box h3 {
+  font-size: 2rem;
+  color: #f97316;
+  margin-bottom: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.stat1-box p {
+  font-size: 1rem;
+  padding: 10px;
+  margin: 10px;
+  color: #ccc;
+}
+
+/* Optional flicker animation */
+@keyframes flicker {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.85; }
+}
+.animate-flicker {
+  animation: flicker 2.5s infinite ease-in-out;
+}
