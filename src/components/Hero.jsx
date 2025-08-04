@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import "./Hero.css";
 
 const Hero = () => {
@@ -10,36 +10,48 @@ const Hero = () => {
           <h1 className="name">Govind Chaknalwar</h1>
           <h2 className="title">Full Stack Web Developer</h2>
 
-
           <div className="services-section">
             <div className="service-container">
-
               <div class="service-icon">
-                <a href="https://www.instagram.com/255_boss/" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.instagram.com/255_boss/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img src="instagram.png" alt="Instagram" class="social-img" />
                 </a>
               </div>
 
               <div className="service-icon">
-                <a href="https://www.linkedin.com/in/govind-chaknalwar-b35278215/" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.linkedin.com/in/govind-chaknalwar-b35278215/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img src="linkedin.png" alt="Linkedin" />
                 </a>
               </div>
 
               <div className="service-icon">
-                <a href="https://github.com/gchaknalwar" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://github.com/gchaknalwar"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img src="github.png" alt="GitHub" />
                 </a>
               </div>
               <div className="service-icon">
-                <a href="https://x.com/255_Boss" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://x.com/255_Boss"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img src="twitter.png" alt="Twitter" />
                 </a>
               </div>
             </div>
           </div>
-
-
 
           <div className="buttons">
             <button className="btn-orange">Hire Me</button>
@@ -68,9 +80,8 @@ const Hero = () => {
           </div>
         </div>
       </section>
-
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
