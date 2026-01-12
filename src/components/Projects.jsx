@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Github, ExternalLink, Code2, Eye } from "lucide-react";
-import flightBooking from "../assets/Images/flightBooking.png";
-import Coffee from "../assets/Images/Coffee.png";
-import vougeVoult from "../assets/Images/VougeVoult.png";
+import flightBooking from "../assets/MainImages/flightBooking.png";
+import Coffee from "../assets/MainImages/Coffee.png";
+import vougeVoult from "../assets/MainImages/VougeVoult.png";
 const projects = [
   {
     id: 1,

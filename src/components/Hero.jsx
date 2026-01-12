@@ -8,7 +8,7 @@ import {
   Download,
   ArrowRight,
 } from "lucide-react";
-import profile from "../assets/Images/profile.png";
+import profile from "../assets/MainImages/profile.png";
 
 const Hero = () => {
   const [mouse, setMouse] = useState({ x: 0, y: 0 });
